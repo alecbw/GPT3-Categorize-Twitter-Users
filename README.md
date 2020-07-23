@@ -23,7 +23,7 @@ You'll need a list of Twitter users exported to CSV with the following headers:
 
 Start the execution with
 ```py
-python3 gpt_categorize_twitter_users.py.py
+python3 gpt_categorize_twitter_users.py
 ```
 The rest is done by interactive CLI. 
 ```text
