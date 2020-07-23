@@ -38,3 +38,17 @@ Alec Barrett-Wilsdon (@contextify1) - Opinions about ads, microservices, startup
 
 [then it will iterate through the full file, saving output to CSV every 25 rows]
 ```
+
+### Results
+
+I ran 1300 accounts I follow through, sampled 8 random rows with a temperature of 0.3, and used the following 14 tags:
+```text
+marketing, ads, ecom, growth, VC, retail, engineer, journalist, tech, PE, PM, Shopify, founder, infra
+```
+Some observations on the results:
+* 749 unique tag combinations and 318 unique tags were generated
+* 99% of outputs had at least one tag
+* 168 tags had only 1 instance
+* 247 tags had 5 or less instances
+* I manually reviewed tags with 6 or more instances; I removed 10 of 72, 9/10 for being duplicates (e.g. eng and engineer)
+* the `founder` tag had the most instances - 24% of total inputs
