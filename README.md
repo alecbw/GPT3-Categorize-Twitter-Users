@@ -26,7 +26,7 @@ Start the execution with
 python3 gpt_categorize_twitter_users.py.py
 ```
 The rest is done by interactive CLI. 
-```bash
+```text
 [?] What is the name of the file you want to read from?: example.csv
 [?] What temperature do you want to set for the queries? Range is 0.0-1.0: 0.3
 [?] How many samples do you want to manually categorize first? Range is 5-20: 8
