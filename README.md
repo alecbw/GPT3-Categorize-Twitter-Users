@@ -32,6 +32,7 @@ The rest is done by interactive CLI.
 [?] How many samples do you want to manually categorize first? Range is 5-20: 8
 
 [it will then iterate through the number of samples you specify, printing the description and prompting you to label:]
+
 Alec Barrett-Wilsdon (@contextify1) - Opinions about ads, microservices, startups, and oxford commas.\nFormer growth software @curologyusa, SaaS VC @acceleprise, @ucberkeley\nlearnings 👉🏻 https://alec.fyi
 [?] What categories does this fit in? Separate by commas: ads, ecom, SaaS, VC, tech, etc, etc
 
