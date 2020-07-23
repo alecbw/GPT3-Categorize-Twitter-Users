@@ -30,8 +30,10 @@ The rest is done by interactive CLI.
 [?] What is the name of the file you want to read from?: example.csv
 [?] What temperature do you want to set for the queries? Range is 0.0-1.0: 0.3
 [?] How many samples do you want to manually categorize first? Range is 5-20: 8
+
 [it will then iterate through the number of samples you specify, printing the description and prompting you to label:]
 Alec Barrett-Wilsdon (@contextify1) - Opinions about ads, microservices, startups, and oxford commas.\nFormer growth software @curologyusa, SaaS VC @acceleprise, @ucberkeley\nlearnings 👉🏻 https://alec.fyi
 [?] What categories does this fit in? Separate by commas: ads, ecom, SaaS, VC, tech, etc, etc
+
 [then it will iterate through the full file, saving output to CSV every 25 rows]
 ```
