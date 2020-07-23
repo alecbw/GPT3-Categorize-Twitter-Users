@@ -52,3 +52,9 @@ Some observations on the results:
 * 247 tags had 5 or less instances
 * I manually reviewed tags with 6 or more instances; I removed 10 of 72, 9/10 for being duplicates (e.g. eng and engineer)
 * the `founder` tag had the most instances - 24% of total inputs
+
+14 most applied tags by GPT-3 (in order):
+```text
+founder, PM, journalist, ecom, vc, eng, growth, tech, marketing, PR, med, PE, investor, product
+```
+10 of inputs were included in the top outputs, 3 derivational (ads=med (media), PM=product, engineer=eng), and one novel one (PR)
