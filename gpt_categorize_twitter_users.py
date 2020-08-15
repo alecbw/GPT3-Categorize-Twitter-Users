@@ -35,7 +35,6 @@ def prompt_user_response(response_type):
     }
 
     questions = [inquirer.Text(response_type, message=question_bank[response_type])]
-
     answers = inquirer.prompt(questions)
     return answers[response_type.lower()]
 
@@ -56,7 +55,8 @@ if __name__ == "__main__":
 
     gpt = GPT(engine="davinci",
           temperature=float(temperature),
-          max_tokens=20)
+        # stop="\n", # TODO
+          max_tokens=30)
 
     # We pick random rows to manually tag as examples
     random_row_numbers = random.sample(range(0, len(users_lod)), int(training_samples))
@@ -74,4 +74,4 @@ if __name__ == "__main__":
         if n != 0 and n % 25 == 0:
             write_output_csv(filename, users_lod)
 
-        write_output_csv(filename, users_lod)
+    write_output_csv(filename, users_lod)
